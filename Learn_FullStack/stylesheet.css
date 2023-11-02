@@ -1,0 +1,51 @@
+/* Style untuk judul */
+.judul {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-top: 50px;
+  }
+  
+  /* Style untuk gambar chef */
+  .chefimg {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 50px;
+  }
+  
+  /* Style untuk daftar makanan */
+  .container {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  .food {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .food li {
+    margin: 10px;
+    border: 1px solid #333;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  }
+  
+  .food li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+  }
+  
